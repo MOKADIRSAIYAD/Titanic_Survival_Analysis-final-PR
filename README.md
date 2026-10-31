@@ -1,23 +1,6 @@
 # Titanic Survival Analysis (EDA)
 
-**Red & White Skill Education | Data Analysis Project (Topic 3)**
 
-## Objective
-Perform exploratory data analysis (EDA) on the Titanic passenger dataset to understand **which factors influenced passenger survival**, and visualize survival rates by **passenger class, gender, age** and other features.
-
-## Tools and Libraries
-Python 3, Pandas, NumPy, Matplotlib, Seaborn (Jupyter Notebook / Anaconda).
-
-## Project Structure
-```
-Titanic_Survival_Analysis/
-├── Titanic_Survival_Analysis.ipynb   # Complete analysis (run this)
-├── titanic.csv                       # Input dataset (891 rows, 12 columns)
-├── titanic_cleaned.csv               # Cleaned dataset with new features (created by the notebook)
-├── images/                           # 17 charts saved by the notebook
-├── requirements.txt                  # Required libraries
-└── README.md                         # Project documentation
-```
 
 ## About the Dataset (please read)
 `titanic.csv` follows the **same structure as the Kaggle Titanic `train.csv`**: 891 passengers and the columns `PassengerId, Survived, Pclass, Name, Sex, Age, SibSp, Parch, Ticket, Fare, Cabin, Embarked`.
